@@ -1,0 +1,270 @@
+body {
+    backsground: radial-gradient(rgba(170, 20, 240, 0.5), rgba(170, 20, 240, 0));
+}
+
+
+
+@font-face {
+    font-family: orbitron;
+    src: url(orbitron.ttf);
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(Poppins-Regular.ttf);
+}
+
+.menuh:hover {
+    cursor: pointer;
+    transform: scale(1.5px);
+    transition: 0.5s;
+}
+
+div div nav div h2 {
+    font-family: orbitron;
+}
+
+div div nav div h2:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translate(10px) scale(1.2);
+}
+
+
+div div nav div a {
+    font-family: poppins-regular;
+    color: white;
+
+}
+
+a:hover {
+    color: rgba(209, 14, 209, 1);
+    transition: 0.5s;
+    transform: translateY(-5px);
+
+}
+
+.nav-op:active{
+    color: red;
+}
+
+h1 {
+    font-family: orbitron;
+}
+
+div div div div h1 span {
+    background: rgb(248, 108, 248);
+    background: linear-gradient(90deg, rgba(248, 108, 248, 1)0%, rgba(0, 180, 236, 1)100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+div div div div p {
+    font-family: poppins-regular;
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+.bt1,
+.bt3,
+.bt4,
+.bt6,
+.bt8,
+.bt10,
+.bt12,
+.bt14 {
+    border-radius: 0.3rem;
+    border: 0;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    background: rgb(209, 14, 209);
+    background: linear-gradient(90deg, rgba(209, 14, 209, 1)0%, rgba(16, 163, 218, 1)100%);
+    font-family: poppins-regular;
+}
+
+
+.bt2 {
+    border: 2px solid;
+    border-radius: 5rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+
+    border-image: linear-gradient(90deg, rgba(209, 14, 209, 1)0%, rgba(16, 163, 218, 1)100%)1;
+    background-color: inherit;
+    font-family: poppins-regular;
+}
+
+div div div div div h3 {
+    font-family: orbitron;
+}
+
+div div div div div h3 p {
+    font-family: poppins-regular;
+}
+
+.entr1 {
+    position: relative;
+    z-index: -2;
+    max-width: fit-content;
+    width: 100%;
+
+}
+
+.entr1 img {
+    width: 80%;
+    border: 3px solid;
+    border-top-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+    padding: 2%;
+
+
+}
+
+.entr2 {
+    position: relative;
+    bottom: 30%;
+    left: 25%;
+    z-index: -1;
+    max-width: fit-content;
+    width: 100%;
+
+}
+
+.entr2 img {
+    width: 80%;
+    border: 3px solid;
+    border-bottom-right-radius: 12%;
+    padding: 2%;
+
+}
+
+
+div div div div h2 {
+    font-family: orbitron;
+}
+
+div div div div h2 span {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div div div div p {
+    font-family: poppins-regular;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+div div div h2,
+h3 {
+    font-family: orbitron;
+}
+
+div div div h2 span {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgb(207, 146, 243) 0%, rgb(90, 159, 238) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div div div p {
+    font-family: poppins-regular;
+}
+
+div div section {
+    background-color: rgba(9, 8, 35, 1);
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.bt4,
+.bt6,
+.bt8,
+.bt10,
+.bt12,
+.bt14 {
+    border-radius: 0.3rem;
+    border: 0;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    color: white;
+    background: rgb(209, 14, 209);
+    background: linear-gradient(90deg, rgba(209, 14, 209, 1)0%, rgba(16, 163, 218, 1)100%);
+    font-family: poppins-regular;
+}
+
+.bt5,
+.bt7,
+.bt9,
+.bt11,
+.bt13,
+.bt15 {
+    border: 2px solid;
+    border-radius: 5rem;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    color: white;
+    border-image: linear-gradient(90deg, rgba(209, 14, 209, 1)0%, rgba(16, 163, 218, 1)100%)1;
+    background-color: inherit;
+    font-family: poppins-regular;
+    font-size: 0.9rem
+}
+
+div div section p {
+    font-size: 0.9rem;
+}
+
+section section h2 {
+    font-family: orbitron;
+}
+
+section section h2 span {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgb(215, 179, 235) 0%, rgb(58, 150, 229) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section section p {
+    font-family: poppins-regular;
+}
+
+section section .metav {}
+
+footer {
+    background-color: rgba(9, 8, 35, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+footer h1,
+h5 {
+    font-family: orbitron;
+}
+
+footer h1 {
+    background: rgb(248, 108, 248);
+    background: linear-gradient(90deg, rgba(248, 108, 248, 1)0%, rgba(100, 206, 245, 1)100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+footer p,
+a,
+li {
+    font-family: poppins-regular;
+    font-size: 0.8rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    padding: 0.2rem 0;
+}
